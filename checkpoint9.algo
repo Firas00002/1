@@ -1,0 +1,22 @@
+ALGORITHM array sipmle
+VAR
+   tab : ARRAY_OF INTEGER[4];
+   tab1 : ARRAY_OF INTEGER[5];
+   tab2: ARRAY_OF INTEGER[];
+   i: INTEGER;
+   sum:INTEGER:=0;
+
+BEGIN
+   Read(tab);
+   FOR i FROM 0 TO tab.length-1 STEP 1  DO
+       Write(tab[i]);
+   END_FOR
+   Read(tab1);
+   FOR i FROM 0 TO tab1.length-1 STEP 1  DO
+       Write(tab1[i]);
+   END_FOR
+   IF (tab[i]==tab1[i]) THEN
+  tab2[]:=tab[i].push;
+   END_IF
+   Sum:+=tab2[]
+END
